@@ -1,0 +1,98 @@
+body {
+  background : white ;
+}
+.nomdeblog{
+  margin-top:50px;
+  color : #b30000 ;
+  font-family: 'Monoton', cursive;
+  position:fixed;
+  padding:0px;
+
+}
+.en_tete{
+background-image:url("https://cdn.pixabay.com/photo/2015/03/04/18/02/panda-659186_1280.png");
+background-repeat: no-repeat;
+height: 260px;
+}
+
+.sousnomdeblog{
+  text-align : center ;
+  font-family: 'Poiret One', cursive;
+  color: black;
+  position:fixed;
+  padding:0px;
+  margin-top:100px;
+}
+
+#navbar ul {
+	display: grid;
+  grid-gap: 3px;
+	list-style: none ;
+  background-color: white;
+  width: 172px;
+  height: 160px;
+  margin: 0px;
+  padding: 0px;
+  text-align: center;
+  line-height: 30px;
+position: fixed;
+  top: 30px;
+  right: 30px;
+}
+#navbar li{
+  background-color:black;
+  border-radius:10px;
+}
+ #navbar li:hover {
+    animation-name: background-color;
+    animation-fill-mode: forwards;
+  }
+  @keyframes background-color {
+    100% {
+      background-color: #b30000;
+    }
+  }
+#navbar a {
+	display:grid;
+	margin: 0px;
+  color : #FFFFFF ;
+  text-decoration: none;
+}
+
+
+.container {
+    font-size: 40px;
+    min-height: 250px;
+    width: 50%;
+    background: white ;
+    display: block;
+    border : 1px solid  #b30000 ;
+    margin-left:auto;
+	  margin-right:auto;
+    margin-top : 50px;
+}
+.article {
+  background-color:white;
+  text-align : justify;
+  font-size: 18px;
+  color: black;
+  margin-right: 0px;
+  margin-left:7px;
+  font-family: 'Dosis', sans-serif;
+}
+
+.titre {
+  font-size : 25px;
+  color:black;
+  text-align:center;
+}
+footer {
+  margin-top : 100px;
+  padding: 0px;
+  text-align : center;
+  background-color: black;
+  min-height:25px;
+}
+.footer {
+  color: #FFFFFF;
+}
